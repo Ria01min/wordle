@@ -10,9 +10,10 @@ header {
   align-items: center;
 }
 
-.info-bar__menu img {
+/* 중복 제거 
+  .info-bar__menu img {
   width: 25px;
-}
+} */
 
 .info-bar__icons img {
   width: 25px;
