@@ -12,8 +12,6 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  font-size: 23px;
-  font-weight: bold;
 }
 
 .keyboard-column {
@@ -24,7 +22,10 @@ footer {
   width: 30px;
   height: 40px;
   background-color: #d4d6da;
+  color: rgb(88, 84, 84);
   border-radius: 5px;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .keyboard-column-wide {
