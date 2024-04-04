@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+  /* 이곳에 gap을 주게 되면 board-column내에 있는 요소들을 떨어트리는 것. 하지만 내부 요소가 없으므로 상위에 gap을 적용시켜야 함. */
+}
